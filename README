@@ -1,0 +1,35 @@
+also version 0.01
+=================
+
+also is a pragma for exporting other modules into your caller's
+namespace. If you have
+
+package My::Mod;
+
+use also 'My::OtherMod' => [qw/hello world/];
+
+then whenever someone uses My::Mod it is as if they have also
+used My::OtherMod.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+None.
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2004 by Ben Morrow <also-pm@morrow.me.uk>
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.2 or,
+at your option, any later version of Perl 5 you may have available.
+
+

@@ -1,0 +1,6 @@
+Revision history for Perl extension also.
+
+0.01  Thu Jan 29 11:49:01 2004
+	- original version; created by h2xs 1.23 with options
+		-PAXn also
+
